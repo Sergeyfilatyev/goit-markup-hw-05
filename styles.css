@@ -121,7 +121,17 @@ a {
   color: var(--accent-color);
 }
 .nav-menu-link.current {
+  padding-bottom: 0;
   color: var(--accent-color);
+}
+.current::after {
+  content: '';
+  display: block;
+  width: auto;
+  margin-top: 28px;
+  height: 4px;
+  background-color: var(--accent-color);
+  border-radius: 2px;
 }
 .contact {
   margin-left: auto;
