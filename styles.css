@@ -160,13 +160,9 @@ a {
   color: var(--accent-color);
 }
 .contact-icon {
-  fill: var(--main-color);
+  fill: currentColor;
   margin-right: 10px;
   transition: fill 250ms var(--cubic-beizer-hover);
-}
-.contact-link:focus .contact-icon,
-.contact-link:hover .contact-icon {
-  fill: var(--accent-color);
 }
 
 /* Hero */
